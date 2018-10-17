@@ -21315,6 +21315,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Rotate,
 	cr.behaviors.destroy,
 	cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
+	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 	cr.behaviors.Platform.prototype.acts.SimulateControl,
 	cr.plugins_.Sprite.prototype.cnds.OnCreated,
 	cr.behaviors.custom.prototype.acts.SetSpeed,
@@ -21335,6 +21336,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.RestartLayout,
 	cr.system_object.prototype.acts.ResetGlobals,
 	cr.system_object.prototype.acts.GoToLayout,
-	cr.system_object.prototype.cnds.CompareVar
+	cr.system_object.prototype.cnds.CompareVar,
+	cr.system_object.prototype.cnds.IsMobile
 ];};
 
